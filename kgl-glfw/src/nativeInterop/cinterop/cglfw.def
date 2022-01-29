@@ -3,7 +3,7 @@ headers = GLFW/glfw3.h
 headerFilter = GLFW/glfw3.h
 
 compilerOpts = -DGLFW_INCLUDE_VULKAN
-compilerOpts.linux = -I/usr/include -I/usr/local/include
+compilerOpts.linux = -I/usr/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu
 compilerOpts.osx = -I/usr/local/include
 
 linkerOpts.osx = -framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo

@@ -3,5 +3,5 @@ headers = GL/glcorearb.h
 headers.linux = GL/glx.h
 #headerFilter = GL/*.h
 
-compilerOpts.linux = -I/usr/include
+compilerOpts.linux = -I/usr/include -I/usr/include/x86_64-linux-gnu
 linkerOpts.linux = -L/usr/lib64 -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib -lGL
